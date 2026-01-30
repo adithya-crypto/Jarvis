@@ -1,0 +1,8 @@
+<behavior_tree name="Job Search Mode">
+    <sequence>
+        <action name="Check Battery" type="check_battery" min_percent="40"/>
+        <action name="Open Chrome" type="open_app" app="Google Chrome"/>
+        <action name="Open Notion" type="open_app" app="Notion"/>
+        <action name="Job Search Alert" type="notify" title="JARVIS" message="Job search session started. Stay focused sir."/>
+    </sequence>
+</behavior_tree>

@@ -1,0 +1,11 @@
+requests
+pyttsx3
+SpeechRecognition
+PyAudio
+duckduckgo-search
+gTTS
+edge-tts
+pvporcupine
+psutil
+pyyaml
+py_trees

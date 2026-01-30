@@ -1,0 +1,8 @@
+<behavior_tree name="Morning Routine">
+    <sequence>
+        <action name="Check Battery" type="check_battery" min_percent="40"/>
+        <action name="Open Chrome" type="open_app" app="Google Chrome"/>
+        <action name="Open Notion" type="open_app" app="Notion"/>
+        <action name="Morning Greeting" type="notify" title="JARVIS" message="Good morning sir. Systems are online."/>
+    </sequence>
+</behavior_tree>

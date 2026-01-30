@@ -1,0 +1,7 @@
+<behavior_tree name="Focus Mode">
+    <sequence>
+        <action name="Mute Notifications" type="mute_system"/>
+        <action name="Focus Alert" type="notify" title="JARVIS" message="Focus mode activated. Distractions silenced."/>
+        <action name="Start Timer" type="pomodoro" minutes="25"/>
+    </sequence>
+</behavior_tree>

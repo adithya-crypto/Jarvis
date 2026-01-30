@@ -1,0 +1,8 @@
+<behavior_tree name="Study Mode">
+    <sequence>
+        <action name="Check Battery" type="check_battery" min_percent="40"/>
+        <action name="Mute Notifications" type="mute_system"/>
+        <action name="Open Notion" type="open_app" app="Notion"/>
+        <action name="Start Timer" type="pomodoro" minutes="25"/>
+    </sequence>
+</behavior_tree>

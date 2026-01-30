@@ -1,0 +1,9 @@
+<behavior_tree name="Code Session">
+    <sequence>
+        <action name="Check Battery" type="check_battery" min_percent="40"/>
+        <action name="Mute Notifications" type="mute_system"/>
+        <action name="Open VS Code" type="open_app" app="Visual Studio Code"/>
+        <action name="Open Terminal" type="open_app" app="Terminal"/>
+        <action name="Code Ready" type="notify" title="JARVIS" message="Code session ready. Good luck sir."/>
+    </sequence>
+</behavior_tree>

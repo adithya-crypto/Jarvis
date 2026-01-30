@@ -1,0 +1,8 @@
+# JARVIS Configuration Template
+# Copy this to settings.yaml and fill in your API keys
+
+# Gemini API Key - Get from https://aistudio.google.com/
+gemini_api_key: "YOUR_GEMINI_API_KEY_HERE"
+
+# Picovoice Access Key - Get from https://console.picovoice.ai/
+picovoice_access_key: "YOUR_PICOVOICE_ACCESS_KEY_HERE"
